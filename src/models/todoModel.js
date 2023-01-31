@@ -1,8 +1,5 @@
 const getTodoModel = (sequelize, { DataTypes }) => {
   const Todo = sequelize.define("todos", {
-    timestamps: true,
-    underscored: true,
-
     title: {
       type: DataTypes.STRING,
     },

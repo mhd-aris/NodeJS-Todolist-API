@@ -1,8 +1,5 @@
 const getActivityModel = (sequelize, { DataTypes }) => {
   const Activity = sequelize.define("activities", {
-    timestamps: true,
-    underscored: true,
-
     title: {
       type: DataTypes.STRING,
     },
